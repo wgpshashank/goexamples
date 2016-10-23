@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	fmt.Println("Launching server...")
+	fmt.Println("Launching TCP server...")
 
 	// listen
 	ln, err := net.Listen("tcp", ":1433")
